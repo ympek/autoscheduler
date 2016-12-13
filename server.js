@@ -3,6 +3,8 @@ var handlebars = require('handlebars'),
 var http = require('http'),
     url = require('url');
 
+var gen = require('./generator');
+
 function start() {
     var processRequest = function (req, res) {
         var pathname = url.parse(req.url).pathname;
@@ -21,13 +23,14 @@ function start() {
         } else {
             fs.readFile('index.html', 'utf-8', function(error, source) {
                 var template = handlebars.compile(source);
-                var html = template(data);
+                var html = template(gen.data());
 
                 console.log('pathname', pathname);
 
                 console.log(error);
 
                 console.log(html)
+                console.log(gen.data());
 
                 res.writeHead(200, {
                     "Content-Type": "text/html"

@@ -1,0 +1,25 @@
+{
+  "name": "autoscheduler",
+  "version": "1.0.0",
+  "description": "autoscheduler app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ympek/autoscheduler.git"
+  },
+  "keywords": [
+    "schedule"
+  ],
+  "author": "ympek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ympek/autoscheduler/issues"
+  },
+  "homepage": "https://github.com/ympek/autoscheduler#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6"
+  }
+}

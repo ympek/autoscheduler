@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+td, th {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+/* color classes */
+
+/* szatnie */
+.cloakrooms {
+    background: #dac2b7;
+}
+
+/* kiermasz */
+.marketplace {
+    background: #da6f71;
+}
+
+/* panele */
+.panels {
+    background: #47b4e5;
+}
+
+/* informacja */
+.info {
+    background: #6b8e23;
+}
+
+/* bilety */
+.tickets {
+    background: #f87ad6;
+}
+
+/* bramki */
+.doors {
+    background: saddlebrown;
+}

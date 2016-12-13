@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>autoscheduler</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>Iwise</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Wolontariusz</th>
+                <th>9-10</th>
+                <th>10-11</th>
+                <th>11-12</th>
+                <th>12-13</th>
+                <th>13-14</th>
+                <th>14-15</th>
+                <th>15-16</th>
+                <th>16-17</th>
+                <th>17-18</th>
+                <th>18-19</th>
+                <th>19-20</th>
+                <th>20-21</th>
+                <th>21-22</th>
+                <th>22-23</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#each persons}}
+            <tr>
+                <td>{{personName}}</td>
+                <td class="{{hr9.cssClass}}">{{hr9.activityName}}</td>
+                <td class="{{hr10.cssClass}}">{{hr10.activityName}}</td>
+                <td class="{{hr11.cssClass}}">{{hr11.activityName}}</td>
+                <td class="{{hr12.cssClass}}">{{hr12.activityName}}</td>
+                <td class="{{hr13.cssClass}}">{{hr13.activityName}}</td>
+                <td class="{{hr14.cssClass}}">{{hr14.activityName}}</td>
+                <td class="{{hr15.cssClass}}">{{hr15.activityName}}</td>
+                <td class="{{hr16.cssClass}}">{{hr16.activityName}}</td>
+                <td class="{{hr17.cssClass}}">{{hr17.activityName}}</td>
+                <td class="{{hr18.cssClass}}">{{hr18.activityName}}</td>
+                <td class="{{hr19.cssClass}}">{{hr19.activityName}}</td>
+                <td class="{{hr20.cssClass}}">{{hr20.activityName}}</td>
+                <td class="{{hr21.cssClass}}">{{hr21.activityName}}</td>
+                <td class="{{hr22.cssClass}}">{{hr22.activityName}}</td>
+                <!--<td class="marketplace">Targi</td>-->
+                <!--<td class="doors">Bramki</td>-->
+                <!--<td class="panels">Panele</td>-->
+                <!--<td class="tickets">Bilety</td>-->
+                <!--<td class="info">Informacja</td>-->
+                <!--<td></td>-->
+                <!--<td class="cloakrooms">Szatnie</td>-->
+                <!--<td class="marketplace">Targi</td>-->
+                <!--<td class="doors">Bramki</td>-->
+                <!--<td class="panels">Panele</td>-->
+                <!--<td class="tickets">Bilety</td>-->
+                <!--<td class="info">Informacja</td>-->
+                <!--<td class="info">Informacja</td>-->
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+    <!--<script type="text/javascript" src="front.js"></script>-->
+</body>
+</html>
